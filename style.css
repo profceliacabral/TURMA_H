@@ -73,17 +73,24 @@ body {
 .estudante-todos{
     display: grid;
     -ms-grid-column-align: center;
-    grid-template-columns: 20% 20% 20% 20% 20% 20%;
+    grid-template-columns: 20% 20% 20% 20%;
 }
 
 
 .rodape{
-    background-color: black;
-    text-align: center;
+background-color: black;
+text-align: center;
 }
 
 .rodape-imagem{
     height: 60px;
-    padding: 12px 0;
-   
+    padding: 12px 0;   
+}
+.rodape-endereco{
+    height: 60px;
+    padding: 12px 0;   
+}
+
+.rodape-texto{
+    color: white; 
 }
